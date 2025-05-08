@@ -9,7 +9,6 @@ class Program
         dungeon.Erschaffen();
         dungeon.Enter(hoelenforscher);
         
-        
         string eingabe;
         do
         {
@@ -22,4 +21,3 @@ class Program
         } while (eingabe.ToLower() != "ende");
     }
 }
-
